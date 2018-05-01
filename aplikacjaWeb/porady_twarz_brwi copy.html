@@ -1,0 +1,243 @@
+<?php
+   include('session.php');
+?>
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Product example for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="resources/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <script src="resources/js/bootstrap.min.js"></script>
+
+    <script>
+      Holder.addTheme('thumb', {
+        bg: '#55595c',
+        fg: '#eceeef',
+        text: 'Thumbnail'
+      });
+    </script>
+
+    <nav class="site-header sticky-top py-1">
+        <div class="container d-flex flex-column justify-content-between">
+            <ul class="nav nav-pills nav-justified">
+                <li class="nav-item">
+                    <a class="nav-link" href="planer.php">Planer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn-pink" href="porady.php">Porady</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="wyszukaj.php">Wyszukaj</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="bmi.php">BMI</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kontakt.php">Kontakt</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="wyloguj.php">Wyloguj</a>
+                </li>
+            </ul>
+        </div>            
+    </nav>
+
+
+<main role="main">
+
+        <section class="jumbotron text-center">
+          <div class="container">
+            <h1 class="jumbotron-heading">Porady / Twarz / Brwi</h1>
+            <p class="lead text-muted">Klikając w przyc...</p>
+          </div>
+        </section>
+  
+
+    <!--
+        <div class="album py-5 bg-light">
+          <div class="container">
+  
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top" src="resources/photos/planer_twarz_brwi2.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text text-center">Brwi</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a  href="porady_twarz_brwi.php"><button type="button" class="btn btn-sm btn-outline-secondary">Wybierz</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top" src="resources/photos/planer_twarz_rzesy.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text text-center">Rzęsy</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a href="porady_twarz_rzesy.php"><button type="button" class="btn btn-sm btn-outline-secondary">Wybierz</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+  
+              <div class="col-md-6">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top" src="resources/photos/planer_twarz_usta.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text text-center">Usta</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a href="porady_twarz_usta.php"><button type="button" class="btn btn-sm btn-outline-secondary">Wybierz</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top" src="resources/photos/planer_twarz_maseczki.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text text-center">Maseczki</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a href="porady_twarz_maseczki.php"><button type="button" class="btn btn-sm btn-outline-secondary">Wybierz</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="card mb-4 box-shadow">
+                    <img class="card-img-top" src="resources/photos/planer_twarz_peelingi.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                    <p class="card-text text-center">Peelingi</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                        <a href="porady_twarz_peelingi.php"><button type="button" class="btn btn-sm btn-outline-secondary">Wybierz</button></a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-md-6">
+                <div class="card mb-4 box-shadow">
+                    <img class="card-img-top" src="resources/photos/planer_twarz_kapielParowa.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                    <p class="card-text text-center">Kąpiel parowa</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                        <a href="porady_twarz_kapielParowa.php"><button type="button" class="btn btn-sm btn-outline-secondary">Wybierz</button></a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+            </div>
+          </div>
+        </div>
+    -->
+
+<!--
+    <div class="album py-5 bg-light">
+        <div class="container">
+
+            <div id="accordion">
+                    <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Collapsible Group Item #1
+                        </button>
+                        </h5>
+                    </div>
+                
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                    </div>
+                    <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Collapsible Group Item #2
+                        </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                    </div>
+                    <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Collapsible Group Item #3
+                        </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    -->
+
+    <p>
+            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Link with href
+            </a>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+              Button with data-target
+            </button>
+          </p>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            </div>
+          </div>
+
+    </main>
+
+
+
+    <footer class="container py-5 footer">
+      <div class="row">
+        <div class="col-12 col-md">
+          <small class="d-block mb-3 text-muted">&copy; 2018 | Planner Urodowy. Designed with ♡ by Katarzyna Mural</a></small>
+        </div>
+      </div>
+    </footer>
+
+
+  </body>
+</html>
