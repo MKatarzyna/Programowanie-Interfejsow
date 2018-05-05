@@ -78,7 +78,7 @@
 <main role="main">
 
         <section class="jumbotron jumbotron-fluid">
-            <div class="container-fluid koko justify-content-center">
+            <div class="container-fluid koko justify-content-center text-muted">
                 <div class="row justify-content-center">
                     <form class="form"  action="" method="post">
                         <div class="row mb-5">
@@ -122,7 +122,7 @@
             </div>
         </section>
 
-        <div class="album py-5 bg-light">
+        <div class="album py-5 bg-light text-muted">
             <div class="container">
                 <?php echo "Ilosc wynikow: " . $ileporad; ?>
                 <div id="accordion">

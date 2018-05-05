@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wizyty>
+  <wizyta id="1">
+    <termin>2018-05-05</termin>
+    <adres>ul.Zwycięstwa 24, Koszalin</adres>
+    <kontakt>123-123-123</kontakt>
+    <notatka>masaż całego ciała</notatka>
+  </wizyta>
+  <wizyta id="2">
+    <termin>2018-05-20</termin>
+    <adres>ul.Jabłoniowa 10, Koszalin</adres>
+    <kontakt>456-456-456</kontakt>
+    <notatka>regulacja brwi</notatka>
+  </wizyta>
+  <wizyta id="3">
+    <termin>2018-05-05</termin>
+    <adres>ul.Zwycięstwa 24, Koszalin</adres>
+    <kontakt>123-123-123</kontakt>
+    <notatka>hybryda manicure</notatka>
+  </wizyta>
+  <wizyta id="4">
+    <termin>2018-09-20</termin>
+    <adres>ul.Jabłoniowa 10, Koszalin</adres>
+    <kontakt>456-456-456</kontakt>
+    <notatka>stopy</notatka>
+  </wizyta>
+  
+</wizyty>
